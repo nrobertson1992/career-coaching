@@ -27,14 +27,14 @@ from tqdm import tqdm
 import string
 import random
 
-# Set up open ai-chatgpt.
-import openai
-openai.api_key = st.secrets['info']['open_ai_api_key']
-
 # For unique streamlit bits.
 import streamlit as st
 from annotated_text import annotated_text
 from streamlit_pills import pills
+
+# Set up open ai-chatgpt.
+import openai
+openai.api_key = st.secrets['info']['open_ai_api_key']
 
 # Initiate Snowflake client. Be sure to delete your password before you share notebooks.
 ctx = snowflake.connector.connect(

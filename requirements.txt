@@ -1,0 +1,10 @@
+numpy==1.23.1
+openai==0.27.4
+pandas==1.4.1
+requests==2.28.1
+snowflake==0.0.3
+snowflake_connector_python==2.4.6
+st_annotated_text==2.0.0
+streamlit==1.18.1
+streamlit_pills==0.3.0
+tqdm==4.59.0

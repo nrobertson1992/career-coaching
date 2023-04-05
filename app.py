@@ -290,9 +290,8 @@ def annotations(skills, color):
 
 
 st.title('Coaching Tool')
-
+st.warning('Do not post any personally identifiable information about the learner here.', icon="⚠️")
 with st.expander("How does this work?"):
-    st.warning('Do not post any personally identifiable information about the learner here.', icon="⚠️")
     st.markdown("""
         Paste a resume for a student in the text field, then click cmd + enter. The following will be generated.
         (1) An interactive list of the skills found in the resume, with the ability to read more about them.
